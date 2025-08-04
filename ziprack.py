@@ -1,4 +1,12 @@
 import zipfile
+import time  # Import time module for delays
+
+print("ZIPRACK Program in Execution!")
+print("Version: 3.69")
+print("Licenced owner: albinshibyy | github")
+print("Forked: huzairsubair | github")
+print("bruteforcing tool for educational purpose only")
+print("---------")
 
 while True:
     try:
@@ -33,15 +41,19 @@ while True:
                     password = line.strip()
 
                     try:
-                        print("Trying to crack")
-                        print("ConTiNuiNG..........")
+                        print("[ATTEMPT] target 192.06.##1")
+                        print("attacking password")
+                        time.sleep(1.5)  # Cool pause before attempting password
+                        
                         # Attempt to extract the contents of the ZIP archive using the current password
                         zf.extractall(pwd=password.encode())
 
                         # If successful, print the cracked password and exit the loop
                         print("---------------")
                         print("Successfull")
+                        print("Host: 192.06.##1-01")
                         print(f"Cracked password: {password}")
+                        print("decrypted files saved on default folder")
                         break
 
                     except zipfile.BadZipFile:
@@ -54,6 +66,7 @@ while True:
 
                     except RuntimeError:
                         # If the password is incorrect, continue trying other passwords
+                        time.sleep(0.5)  # Small pause between failed attempts
                         continue
 
                     except Exception as e:
@@ -77,7 +90,7 @@ while True:
     # Ask the user if they want to retry the password cracking job
     retry = input("Do you want to retry? (y/n): ")
     if retry.lower() in ("n", "no", "nah", "exit"):
-        print("This program will now EXIT")
-        print("BYE!")
+        print("PROGRAM EXITING!!!!!")
+        print("FINGERPRINTS CLEARED")
         break
 
