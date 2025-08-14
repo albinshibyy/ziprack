@@ -1,6 +1,6 @@
 # ***ziprack***
-***Simple python CLI tool for cracking password of a password protected zip file using a wordlist.
-for educational purpose only***
+***Simple python script for cracking password of a password protected zip file using a wordlist.<br>
+For educational purpose only***
 
 
 ***INSTALLATION***
@@ -11,7 +11,7 @@ python3 ziprack.py
 add the location of zip file and wordlist
 ```
  
-ENCRYPTING THE FILE
+***ENCRYPTING THE FILE***
 ```
 zip -e protected.zip filename
 ```
