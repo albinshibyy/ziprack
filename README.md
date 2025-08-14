@@ -16,6 +16,6 @@ add the location of zip file and wordlist
 zip -e protected.zip filename
 ```
 
-> ***Tested on linux***
-> ***Python3 is a requirement***
-> ***Got any doubt, USE AI***
+> ***Tested on linux*** <br>
+> ***Python3 is a requirement*** <br>
+> ***Got any doubt, USE AI*** <br>
