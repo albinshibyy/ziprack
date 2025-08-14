@@ -1,4 +1,4 @@
-# ***ziprack***
+# ***ZIPRACK***
 ***Simple python script for cracking password of a password protected zip file using a wordlist.<br>
 For educational purpose only***
 
