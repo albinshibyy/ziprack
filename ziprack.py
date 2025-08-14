@@ -47,7 +47,7 @@ while True:
                     try:
                         print("[ATTEMPT] target 192.06.##1")
                         print("attacking password")
-                        time.sleep(1.5)  # Cool pause before attempting password
+                        time.sleep(0.5)  # Cool pause before attempting password
                         
                         # Attempt to extract the contents of the ZIP archive using the current password
                         zf.extractall(pwd=password.encode())
