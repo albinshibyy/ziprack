@@ -1,10 +1,14 @@
+# ZIPRACK
+# Version: 3.69
+# Created: albinshibyy | me only | github
+# bruteforcing tool for educational purpose
+
 import zipfile
 import time  # Import time module for delays
 
 print("ZIPRACK Program in Execution!")
 print("Version: 3.69")
-print("Licenced owner: albinshibyy | github")
-print("Forked: huzairsubair | github")
+print("visit github repo for more info-")
 print("bruteforcing tool for educational purpose only")
 print("---------")
 
