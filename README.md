@@ -3,7 +3,7 @@
 For educational purpose only***
 
 
-***INSTALLATION***
+***INSTALLATION & USAGE***
 ```
 git clone https://github.com/albinshibyy/ziprack
 go to the directory with cd ziprack
