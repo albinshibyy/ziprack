@@ -1,6 +1,6 @@
 # ZIPRACK
 # Version: 3.69
-# Created: albinshibyy | me only | github
+# Created: albinshibyz | github
 # bruteforcing tool for educational purpose
 
 import zipfile
