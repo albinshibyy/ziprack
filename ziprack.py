@@ -1,7 +1,8 @@
 # ZIPRACK
-# Version: 3.69
+# Version: 1.01
 # Created: albinshibyz | github
-# bruteforcing tool for educational purpose
+# bruteforcing py script
+# for educational purpose only
 
 import zipfile
 import time  # Import time module for delays
@@ -47,7 +48,7 @@ while True:
                     try:
                         print("[ATTEMPT] target 192.06.##1")
                         print("attacking password")
-                        time.sleep(0.5)  # Cool pause before attempting password
+                        time.sleep(0.5)  # Cool pause before attempting password # remove it for real use
                         
                         # Attempt to extract the contents of the ZIP archive using the current password
                         zf.extractall(pwd=password.encode())
