@@ -1,7 +1,7 @@
 # ZIPRACK
 # Version: 1.01
 # Created: albinshibyz | github
-# bruteforcing py script
+# bruteforcing python script
 # for educational purpose only
 
 import zipfile
